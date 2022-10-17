@@ -1,0 +1,5 @@
+@mixin centredFlex($dis, $ai, $jc) {
+    display: $dis;
+    align-items: $ai;
+    justify-content: $jc;
+}

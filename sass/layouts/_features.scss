@@ -1,0 +1,43 @@
+.features {
+    padding: 94px 0 94px 0;
+    gap: 30px;
+
+    &__list {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__item {
+        max-width: 270px;
+    }
+
+    &__icon {
+        @include centredFlex(flex, center, center);
+        width: 270px;
+        height: 120px;
+        background-color: $ourteam-background-color;
+        margin-bottom: 30px;
+    }
+
+
+
+    &__title {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: $title-black-color;
+        margin-bottom: 10px;
+    }
+
+    &__dscr {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+    }
+
+
+}
