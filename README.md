@@ -1,5 +1,3 @@
-# goit-markup-hw-4
+# goit-markup-hw-8
 
-html-css markup project ,adding SVG-icons,background images, creating sprite file, forms.
-using BEM and scss
-
+adaptive and responsive design for mobile, tablet and desktop
