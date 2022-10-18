@@ -2,6 +2,7 @@
     padding: 60px 0;
 
 
+
     &__item {
         max-width: 450px;
     }
@@ -9,7 +10,7 @@
 
     &__icon {
         @include centredFlex(flex, center, center);
-        width: 450px;
+        max-width: 450px;
         height: 120px;
         background-color: $ourteam-background-color;
         margin-bottom: 30px;
@@ -37,10 +38,18 @@
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__item {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     &__item:not(:last-of-type) {
         margin-bottom: 30px;
+
     }
 
 }

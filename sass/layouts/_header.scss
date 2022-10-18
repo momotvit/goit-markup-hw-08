@@ -72,7 +72,7 @@
 .header__contact {
     display: none;
 
-    @media screen and (min-width:769px) {
+    @media screen and (min-width:481px) {
         display: flex;
 
         &-item:not(:first-child) {
