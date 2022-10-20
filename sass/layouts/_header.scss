@@ -217,14 +217,19 @@
     }
 }
 
-@media screen and (max-width:480px) {
+.mobile-menu__social-list {
+    display: flex;
+}
+
+@media screen and (max-width:479px) {
     .mobile-menu__social-list {
         display: flex;
+        flex-wrap: wrap;
 
 
         &-link {
             text-decoration: none;
-            display: block;
+            display: flex;
             font-weight: 500;
             font-size: 18px;
             line-height: 1.22;
