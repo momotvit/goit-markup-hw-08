@@ -164,34 +164,82 @@
           <ul class="whatwedo__list">
             <li>
               <div class="whatwedo__dscr-wrap">
-                <img
+                <!-- <img
                   class="whatwedo__picture"
                   src="./images/img.what.we.do1.jpg"
                   alt="Розробник працюе над вебсайтом"
                   width="370"
-                />
+                /> -->
+                <picture>
+                  <source
+                    srcset="
+                      ./images/img.what.we.do1.jpg 1x,
+                      ./images/what.we.do1-2x.jpg  2x
+                    "
+                    type="image/jpeg"
+                    media="(min-width:1200px)"
+                  />
+                  <img
+                    class="whatwedo__picture"
+                    src="./images/img.what.we.do1.jpg"
+                    alt="Розробник працюе над вебсайтом"
+                    width="370"
+                  />
+                </picture>
                 <p class="whatwedo__dscr">Десктопні додатки</p>
               </div>
             </li>
             <li>
               <div class="whatwedo__dscr-wrap">
-                <img
+                <!-- <img
                   class="whatwedo__picture"
                   src="./images/img.what.we.do2.jpg"
                   alt="Розробник працює над додатком"
                   width="370"
-                />
+                /> -->
+                <picture>
+                  <source
+                    srcset="
+                      ./images/img.what.we.do2.jpg 1x,
+                      ./images/what.we.do2-2x.jpg  2x
+                    "
+                    type="image/jpeg"
+                    media="(min-width:1200px)"
+                  />
+                  <img
+                    class="whatwedo__picture"
+                    src="./images/img.what.we.do2.jpg"
+                    alt="Розробник працює над додатком"
+                    width="370"
+                  />
+                </picture>
                 <p class="whatwedo__dscr">Мобільні додатки</p>
               </div>
             </li>
             <li>
               <div class="whatwedo__dscr-wrap">
-                <img
+                <!-- <img
                   class="whatwedo__picture"
                   src="./images/img.wkhat.we.do3.jpg"
                   alt="Дизайнер обирає колір"
                   width="370"
-                />
+                /> -->
+                <picture>
+                  <source
+                    srcset="
+                      ./images/img.wkhat.we.do3.jpg 1x,
+                      ./images/what.we.do3-2x.jpg   2x
+                    "
+                    type="image/jpeg"
+                    media="(min-width:1200px)"
+                  />
+                  <img
+                    class="whatwedo__picture"
+                    src="./images/img.wkhat.we.do3.jpg"
+                    alt="Дизайнер обирає колір"
+                    width="370"
+                  />
+                </picture>
                 <p class="whatwedo__dscr">Дизайнерські рішення</p>
               </div>
             </li>
@@ -203,12 +251,44 @@
           <h2 class="ourteam__title title">Наша команда</h2>
           <ul class="ourteam__list">
             <li class="ourteam__item">
-              <img
+              <!-- <img
                 class="ourteam__picture"
                 src="./images/img.our.team1.jpg"
                 alt="Ігор Дем'яненко"
                 width="450"
-              />
+              /> -->
+              <picture>
+                <source
+                  srcset="
+                    ./images/our.team.desk1-1x.jpg 1x,
+                    ./images/our.team.desk1-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/our.team.tablet1-1x.jpg 1x,
+                    ./images/our.team.tablet1-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./images/our.team.mobile1-1x.jpg 1x,
+                    ./images/our.team.mobile1-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(max-width:767px)"
+                />
+
+                <img
+                  class="ourteam__picture"
+                  src="./images/our.team.mobile1-1x.jpg"
+                  alt="Ігор Дем'яненко"
+                />
+              </picture>
               <h3 class="ourteam__member-name">Ігор Дем'яненко</h3>
               <p class="ourteam__member-position" lang="en">Product Designer</p>
               <ul class="ourteam__card-list">
@@ -263,12 +343,44 @@
               </ul>
             </li>
             <li class="ourteam__item">
-              <img
+              <!-- <img
                 class="ourteam__picture"
                 src="./images/img.our.team2.jpg"
                 alt="Ольга Рєпіна"
                 width="270"
-              />
+              /> -->
+              <picture>
+                <source
+                  srcset="
+                    ./images/our.team.desk2-1x.jpg 1x,
+                    ./images/our.team.desk2-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/our.team.tablet2-1x.jpg 1x,
+                    ./images/our.team.tablet2-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./images/our.team.mobile2-1x.jpg 1x,
+                    ./images/our.team.mobile2-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(max-width:767px)"
+                />
+
+                <img
+                  class="ourteam__picture"
+                  src="./images/our.team.mobile2-1x.jpg"
+                  alt="Ольга Рєпіна"
+                />
+              </picture>
               <h3 class="ourteam__member-name">Ольга Рєпіна</h3>
               <p class="ourteam__member-position" lang="en">
                 Frontend Developer
@@ -327,12 +439,44 @@
               </ul>
             </li>
             <li class="ourteam__item">
-              <img
+              <!-- <img
                 class="ourteam__picture"
                 src="./images/img.our.team3.jpg"
                 alt="Микола Тарасов"
                 width="270"
-              />
+              /> -->
+              <picture>
+                <source
+                  srcset="
+                    ./images/our.team.desk3-1x.jpg 1x,
+                    ./images/our.team.desk3-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/our.team.tablet3-1x.jpg 1x,
+                    ./images/our.team.tablet3-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./images/our.team.mobile3-1x.jpg 1x,
+                    ./images/our.team.mobile3-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(max-width:767px)"
+                />
+
+                <img
+                  class="ourteam__picture"
+                  src="./images/our.team.mobile3-1x.jpg"
+                  alt="Микола Тарасов"
+                />
+              </picture>
               <h3 class="ourteam__member-name">Микола Тарасов</h3>
               <p class="ourteam__member-position" lang="en">Marketing</p>
               <ul class="ourteam__card-list">
@@ -389,12 +533,44 @@
               </ul>
             </li>
             <li class="ourteam__item">
-              <img
+              <!-- <img
                 class="ourteam__picture"
                 src="./images/img.our.team4.jpg"
                 alt="Михайло Єрмаков"
                 width="270"
-              />
+              /> -->
+              <picture>
+                <source
+                  srcset="
+                    ./images/our.team.desk4-1x.jpg 1x,
+                    ./images/our.team.desk4-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/our.team.tablet4-1x.jpg 1x,
+                    ./images/our.team.tablet4-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./images/our.team.mobile4-1x.jpg 1x,
+                    ./images/our.team.mobile4-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(max-width:767px)"
+                />
+
+                <img
+                  class="ourteam__picture"
+                  src="./images/our.team.mobile4-1x.jpg"
+                  alt="Михайло Єрмаков"
+                />
+              </picture>
               <h3 class="ourteam__member-name">Михайло Єрмаков</h3>
               <p class="ourteam__member-position" lang="en">UI Designer</p>
               <ul class="ourteam__card-list">
