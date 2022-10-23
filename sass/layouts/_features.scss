@@ -1,102 +1,86 @@
 .features {
     padding: 60px 0;
 
+    @media screen and (min-width:1200px) {
+        padding: 94px 0;
 
-
-    &__item {
-        max-width: 450px;
     }
+}
 
 
-    &__icon {
-        @include centredFlex(flex, center, center);
-        max-width: 450px;
-        height: 120px;
-        background-color: $ourteam-background-color;
-        margin-bottom: 30px;
-        border-radius: 4px;
-    }
-
-    &__title {
-        font-family: 'Roboto', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: $title-black-color;
-        margin-bottom: 10px;
-
-        @media screen and (max-width: 480px) {
-            text-align: center;
-
-        }
-    }
-
-    &__dscr {
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    &__item {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    &__item:not(:last-of-type) {
-        margin-bottom: 30px;
-
+@media screen and (min-width:768px) and (max-width:1199px) {
+    .features {
+        background-color: #F5F5F5;
     }
 
 }
 
+@media screen and (min-width:768px) {
+    .features__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
 
 
+.features__item {
+    max-width: 450px;
 
-// .features {
-//     padding: 94px 0 94px 0;
-//     gap: 30px;
+    @media screen and (min-width:768px) and (max-width:1199px) {
+        max-width: 354px;
 
-//     &__list {
-//         display: flex;
-//         gap: 30px;
-//     }
+    }
 
-//     &__item {
-//         max-width: 270px;
-//     }
+    @media screen and (min-width:768px) {
+        max-width: 270px;
 
-// &__icon {
-//     @include centredFlex(flex, center, center);
-//     width: 270px;
-//     height: 120px;
-//     background-color: $ourteam-background-color;
-//     margin-bottom: 30px;
-// }
+    }
+}
 
 
+.features__icon {
+    @include centredFlex(flex, center, center);
+    max-width: 450px;
+    height: 120px;
+    background-color: $ourteam-background-color;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
 
-// &__title {
-//     font-family: 'Roboto', sans-serif;
-//     font-style: normal;
-//     font-weight: 700;
-//     font-size: 14px;
-//     line-height: 1.14;
-//     letter-spacing: 0.03em;
-//     text-transform: uppercase;
-//     color: $title-black-color;
-//     margin-bottom: 10px;
-// }
+.features__title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $title-black-color;
+    margin-bottom: 10px;
+}
 
-// &__dscr {
-//     font-size: 14px;
-//     line-height: 1.71;
-//     letter-spacing: 0.03em;
-// }
+@media screen and (max-width: 767px) {
+    .features__title {
+        text-align: center;
+    }
+}
 
 
-// }
+.features__dscr {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features__item {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features__item:not(:last-of-type) {
+    margin-bottom: 30px;
+
+}
