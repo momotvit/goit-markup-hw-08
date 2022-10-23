@@ -698,9 +698,7 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-width: 200px;
-  min-height: 50px;
-  padding: 0;
+  padding: 10px 31px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;

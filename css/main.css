@@ -424,9 +424,13 @@ ul {
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
-  width: 360px;
 }
 
+@media screen and (min-width: 768px) {
+  .hero__heading {
+    width: 360px;
+  }
+}
 @media screen and (min-width: 1199px) {
   .hero__heading {
     font-size: 44px;
@@ -456,9 +460,7 @@ ul {
   border: 1px solid transparent;
   border-radius: 4px;
   display: inline-block;
-  padding: 0;
-  width: 200px;
-  height: 50px;
+  padding: 10px 24px;
 }
 .hero__btn__btn:hover, .hero__btn__btn:focus {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -470,7 +472,7 @@ ul {
 
 @media screen and (min-width: 769px) {
   .hero__btn {
-    width: 216px;
+    padding: 10px 32px;
   }
 }
 .features {
@@ -966,9 +968,7 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-width: 200px;
-  min-height: 50px;
-  padding: 0;
+  padding: 10px 31px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
