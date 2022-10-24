@@ -29,6 +29,7 @@
         height: 100vh;
         padding-left: calc(100vw / 12);
         padding-top: 48px;
+        padding-bottom: 48px;
         background-color: $main-white-coloor;
         z-index: 999;
         transform: translateX(100%);
@@ -86,7 +87,7 @@
 
 @media screen and (max-width:768px) {
     .mobile__navigation-list {
-        margin-bottom: 302px;
+        // margin-bottom: 302px;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
@@ -112,9 +113,9 @@
 
 .mobile__navigation-item:not(:last-child) {
     margin-bottom: 32px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    // display: flex;
+    // justify-content: space-between;
+    // flex-direction: column;
 }
 
 @media screen and (max-width:768px) {
@@ -151,8 +152,8 @@
 
 @media screen and (max-width:768px) {
     .mobile__contact {
-        display: flex;
-        flex-direction: column;
+        // display: flex;
+        // flex-direction: column;
         margin-bottom: 64px;
         display: block;
     }
