@@ -692,6 +692,12 @@ ul {
   border-color: #2196F3;
 }
 
+@media screen and (min-width: 1200px) {
+  .footer__signup-form-input {
+    min-width: 358px;
+    margin-right: 12px;
+  }
+}
 @media screen and (min-width: 480px) and (max-width: 1199px) {
   .footer__signup-form {
     width: 450px;
@@ -709,6 +715,13 @@ ul {
     margin-right: auto;
   }
 }
+@media screen and (min-width: 1200px) {
+  .footer__signup-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 .footer__submit-btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -719,7 +732,9 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 10px 31px;
+  min-width: 200px;
+  height: 50px;
+  padding: 0;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -735,14 +750,18 @@ ul {
   -webkit-transition: shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
-  margin-left: auto;
-  margin-right: auto;
 }
 .footer__submit-btn:hover, .footer__submit-btn:focus {
   -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
           box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
+@media screen and (max-width: 1199px) {
+  .footer__submit-btn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer__tablet-top-box {
     display: -webkit-box;
