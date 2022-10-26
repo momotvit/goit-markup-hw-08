@@ -559,6 +559,11 @@ ul {
 .features__item:not(:last-of-type) {
   margin-bottom: 30px;
 }
+@media screen and (min-width: 1200px) {
+  .features__item:not(:last-of-type) {
+    margin-bottom: 0;
+  }
+}
 
 @media screen and (max-width: 1200px) {
   .whatwedo {
